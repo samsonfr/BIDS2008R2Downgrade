@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "BIDSDowngradeTest", "BIDSDowngradeTest.rptproj", "{D375615A-37EC-4549-82FD-6E337C9A2549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Debug|Default.ActiveCfg = Debug
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Debug|Default.Build.0 = DebugLocal
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Debug|Default.Deploy.0 = DebugLocal
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.DebugLocal|Default.Build.0 = DebugLocal
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Release|Default.ActiveCfg = Release
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Release|Default.Build.0 = Release
+		{D375615A-37EC-4549-82FD-6E337C9A2549}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

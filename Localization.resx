@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorBuiltInField" xml:space="preserve">
+    <value>The built-in field {OldFieldName}, used by element '{0}', is not supported by SQL Server 2008 Reporting Services. Either reduce the error level to a value less than 3 to replace it automatically with {NewFieldName}, remove the built-in field from the report or change the ReportServerTargetVersion to a version that supports the {OldFieldName} build-in field.</value>
+  </data>
+  <data name="ErrorIndicator" xml:space="preserve">
+    <value>The state indicator, {0}, was detected in the report. SQL Server 2008 Reporting Services does not support state indicators. Either reduce the error level to a value less than 2 or change the ReportServerTargetVersion to a version that supports state indicators.</value>
+  </data>
+  <data name="ErrorMap" xml:space="preserve">
+    <value>The map, {0}, was detected in the report. SQL Server 2008 Reporting Services does not support map report items. Either reduce the error level to a value less than 2 or change the ReportServerTargetVersion to a version that supports map report items.</value>
+  </data>
+  <data name="ErrorNewDataSource" xml:space="preserve">
+    <value>An attempt has been made to use a data extension 'SHAREPOINTLIST', 'SQLAZURE' or 'SQLPDW' that is either not registered for this report server or is not supported in this edition of Reporting Services.</value>
+  </data>
+  <data name="ErrorNewPageBreakOptions" xml:space="preserve">
+    <value>A PageBreak property was detected in the data region, rectangle, or group ‘{0}’ SQL Server 2008 Reporting Services does not support the PageBreak property, Disabled or ResetPageNumber. Either reduce the error level to a value less than 3 or change the ReportServerTargetVersion to a version that supports the PageBreak property Disabled or ResetPageNumber.</value>
+  </data>
+  <data name="ErrorRotate270" xml:space="preserve">
+    <value>The WritingMode value 'Rotate270' of element '{0}' is not supported in SQL Server 2008 Reporting Services. Set the WritingMode to either 'Horizontal' or 'Vertical' or change the ReportServerTargetVersion to a version that supports a WritingMode of 'Rotate270'.</value>
+  </data>
+  <data name="ErrorSharedDataset" xml:space="preserve">
+    <value>The data set, {0}, is a shared dataset. SQL Server 2008 Reporting Services does not support shared data sets.</value>
+  </data>
+  <data name="ErrorWritableVariable" xml:space="preserve">
+    <value>The Writeable property of variable, WritableVariable, is set to true on variable '{0}'. SQL Server 2008 Reporting Services does not support variables that are read/write. Either make the variable read-only or change the ReportServerTargetVersion to a version that supports the read/write variables.</value>
+  </data>
+  <data name="WarningBuiltInField" xml:space="preserve">
+    <value>Built-in field {OldFieldName} was replaced by {NewFieldName} for element '{0}'. SQL Server 2008 Reporting Services does not support the {OldFieldName} built-in field.</value>
+  </data>
+  <data name="WarningGeneric" xml:space="preserve">
+    <value>{0} - Element of type '{1}', part of '{2}' named '{3}' was removed or modified. 
+XPath that was used to find the element: {4}.</value>
+  </data>
+  <data name="WarningIndicator" xml:space="preserve">
+    <value>The state indicator, {0}, was removed from the report. SQL Server 2008 Reporting Services does not support state indicators.</value>
+  </data>
+  <data name="WarningMap" xml:space="preserve">
+    <value>The map, {0}, was removed from the report. SQL Server 2008 Reporting Services does not support map report items.</value>
+  </data>
+  <data name="WarningNewDataSource" xml:space="preserve">
+    <value>The data source, {0}, was removed from the report. SQL Server 2008 Reporting Services does not support data sources of type 'SHAREPOINTLIST', 'SQLAZURE' or 'SQLPDW'.</value>
+  </data>
+  <data name="WarningNewPageBreakOptions" xml:space="preserve">
+    <value>A PageBreak property was removed from the data region, rectangle, or group ‘{0}’. SQL Server 2008 Reporting Services does not support the PageBreak property Disabled or ResetPageNumber.</value>
+  </data>
+  <data name="WarningRotate270" xml:space="preserve">
+    <value>The WritingMode value 'Rotate270' of element '{0}' was changed to 'Vertical'. SQL Server 2008 Reporting Services does not support the 'Rotate270' WritingMode value.</value>
+  </data>
+  <data name="WarningSharedDataset" xml:space="preserve">
+    <value>The shared dataset, {0}, was removed from the report. SQL Server 2008 Reporting Services does not support shared data sets.</value>
+  </data>
+  <data name="WarningWritableVariable" xml:space="preserve">
+    <value>The Writable property of variable {0} was removed from the report. SQL Server 2008 Reporting Services does not writable variables.</value>
+  </data>
+</root>

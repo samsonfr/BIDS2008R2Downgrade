@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>EmbeddedXml</DataSourceReference>
+      <CommandText>&lt;Query&gt;
+	&lt;XmlData&gt;
+		&lt;Rows&gt;
+			&lt;Row Value="10"/&gt;
+		&lt;/Rows&gt;
+	&lt;/XmlData&gt;
+	&lt;ElementPath IgnoreNamespaces="true"&gt;Rows/Row{@Value(Float)}&lt;/ElementPath&gt;
+&lt;/Query&gt;</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="Value">
+        <DataField>Value</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
