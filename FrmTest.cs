@@ -70,6 +70,7 @@ namespace BIDS2008R2Downgrade
     {
       try
       {
+        Cursor.Current = Cursors.WaitCursor;
         txtDowngradeStatus.Clear();
 
         string sReportXml = File.ReadAllText(txtReportPath.Text, Encoding.UTF8);
